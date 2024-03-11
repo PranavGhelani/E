@@ -28,7 +28,7 @@ class _PopupAnimationDemoState extends State<PopupAnimationDemo> with SingleTick
         weight: 50, // Proportion of the animation duration this tween should take.
       ),
     ]).animate(
-      CurvedAnimation(parent: _controller, curve: Curves.easeOut),
+      CurvedAnimation(parent: _controller, curve: Curves.easeInOut),
     );
 
     // Start the animation when the widget is built.
@@ -53,7 +53,7 @@ class _PopupAnimationDemoState extends State<PopupAnimationDemo> with SingleTick
                       borderRadius: BorderRadius.circular(18),
                         color: Colors.white,
                       ),
-                      height: 90,
+                      height: 100,
                       width: 270,
 
                       child: Column(

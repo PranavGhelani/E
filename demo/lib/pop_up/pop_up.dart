@@ -13,7 +13,7 @@ class _PopupAnimationDemoState extends State<PopupAnimationDemo> with SingleTick
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: Duration(milliseconds: 400), // Total duration for the two-part animation
+      duration: Duration(milliseconds: 800), // Total duration for the two-part animation
       vsync: this,
     );
 
@@ -61,7 +61,7 @@ class _PopupAnimationDemoState extends State<PopupAnimationDemo> with SingleTick
                         children: [
                           SizedBox(height:40,child: Row(mainAxisAlignment: MainAxisAlignment.center,
                               children: [Text(
-                            'Are you sure',
+                            'Are you sure?',
                             style: TextStyle(fontSize: 14,
                               color: Colors.black,
                               backgroundColor: Colors.transparent),

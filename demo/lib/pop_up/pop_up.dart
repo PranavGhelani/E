@@ -132,7 +132,12 @@ class _PopupAnimationDemoState extends State<PopupAnimationDemo> with SingleTick
             _LogOutDialog(context);
             _controller.forward();
           },
-          child: Text('Log Out'),
+          child: Text('Log Out', style: TextStyle(color:
+           Colors.amber,
+           backgroundColor: Colors.grey,
+            fontFamily: AutofillHints.fullStreetAddress,
+            fontSize: 20,
+          ),),
 
       ),
     ));

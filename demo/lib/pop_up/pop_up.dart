@@ -139,8 +139,6 @@ class _PopupAnimationDemoState extends State<PopupAnimationDemo> with SingleTick
             fontSize: 20,
           ),),
 
-          //test
-
       ),
     ));
   }

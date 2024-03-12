@@ -134,7 +134,7 @@ class _PopupAnimationDemoState extends State<PopupAnimationDemo> with SingleTick
           },
           child: Text('Log Out', style: TextStyle(color:
            Colors.amber,
-           backgroundColor: Colors.grey,
+          fontWeight: FontWeight.normal,
             fontFamily: AutofillHints.fullStreetAddress,
             fontSize: 20,
           ),),
